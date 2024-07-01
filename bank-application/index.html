@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>My-Bank</title>
+    </head>
+    <body>
+       
+       <div class="main">
+        <div class="accoutInput">
+           <h3>Create An Account</h3>
+           <div class="fieldSet">
+               <input id="usrnam" type="text" placeholder="user name">
+              <input id="accn" type="number" placeholder="Account Number">   
+              <input id="initalDiposit" type="number" placeholder="Initial Deposite">   
+               <button id="cbtn">Create</button> 
+         <br />
+          
+                
+           </div>
+           
+              <h3>Deposit Money</h3>
+           <div class="fieldSet">
+               <input id="depoAccount" type="number" placeholder="Account number">
+         <input id="depoAmount" type="number" placeholder="amount">   
+         <button id="depoBtn">Deposit</button> 
+         <br />
+          
+                
+           </div>
+           
+           
+          <h3>Withdraw Money</h3>
+           <div class="fieldSet">
+               <input id="Wacc" type="number" placeholder="Account number">
+         <input id="Wamount" type="number" placeholder="amount">   
+         <button id="wBtn">Withdraw</button> 
+         <br />
+          
+                
+           </div> 
+      </div>
+      <div>
+        <h3>My-Bnak Account Details</h3> 
+        <div id="result">
+         
+        </div>
+      </div>
+         
+       
+      <!-- transfer -->
+      <div class="fieldSet">
+        <h3>Send Money</h3> 
+        <input id="fromsnd" type="number" placeholder="transfer from ">
+         <input id="tosnd" type="number" placeholder="transfer to">
+         
+          <input id="amt" type="number" placeholder="transfer  amount">      
+   
+          <div id="mainOtpBox">
+          <div class="otpBox">
+            <p style="color:red; font-size: 24px;" id="otpStatus"></p>           
+            <h2 id="otpC"></h2>
+             <input id="otpI" type="number" placeholder="otp code"> 
+           <div class="otpBtnArea">
+            <button id="otpBtn">verify OTP</button>
+            <button id="resendOtpBtn">resend OTP</button>
+           </div>
+   
+      
+              
+          </div>
+              
+             
+         </div>
+
+       <button id="sendBtn">send</button>
+       
+         
+     </div>
+
+    
+         <div class="otpBox">
+
+           <input class="optInput"  type="number" placeholder="OTP Code">   
+           <button id="otpBtn">verify</button>
+         </div>
+       
+        <div class="otp"></div>   
+           
+       </div>
+       
+        <script src="./script.js"></script>
+    </body>
+</html>

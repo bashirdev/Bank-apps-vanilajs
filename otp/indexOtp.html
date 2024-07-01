@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="./styleOtp.css">
+    </head>
+    <body>
+      
+      
+      <div id="mainOtpBox">
+         <input id="fromsnd" type="number" placeholder="transfer from account ">
+          <input id="tosnd" type="number" placeholder="transfer to account">
+          
+           <input id="amt" type="number" placeholder="transfer  amount">      
+    
+        <button id="sendBtn">send</button>
+       
+       <div class="otpBox">
+       
+               <input id="otpI" type="number" placeholder="otp code"> 
+     <h3 id="otpStatus"></h3>           
+        
+        <h2 id="otpC"></h2>
+        <button id="otpBtn">varify otp</button> 
+        
+        <button id="resendOtpBtn">resend otp</button>
+   
+           
+       </div>
+           
+          
+      </div>
+
+      <div id="result">
+          
+      </div>
+      
+      
+      
+        <script src="./scriptOtp.js"></script>
+    </body>
+</html>
